@@ -1,0 +1,29 @@
+a=1
+a==1 #True
+a is 1 #True
+
+a = [1, 2, 3]               # a list of numbers
+b = [1, 2, 3]
+a == b #true #double equals checks the value and see if they are the same
+a is b #false a is b is checking if both a and b are stored in the same place in memory.
+
+-----------------------------------------------------------------------
+c = b
+b is c # true
+-----------------------------------------------------------------------
+x = 13
+y = 13
+x ==y 
+true
+x is y
+true
+
+-----------------------------------------------------------------------
+a = [1,2]
+b = [1,2]
+
+a == b
+true
+a is b
+false
+#Objects are stored in different memory
